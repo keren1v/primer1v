@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio</title>
+
+    </head>
+    <body style="background-color: cornflowerblue;">
+        <style>
+            ul {
+                color: black;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 25px;
+                display: flex;
+            
+                list-style: none;
+            }
+            li{
+               padding: 10px;
+                border: 2px solid blue;
+                text-align: center;
+            }
+            li:hover ul{
+                display: block;
+
+            }
+            ul ul{
+                display: none;
+                position: absolute;
+                padding: 0;
+                margin: 0;
+                background-color: cadetblue;
+                border: 2px solid white;
+            }
+            ul ul li{
+                display: block;
+                padding: 5px;
+            }
+            ul ul li:hover {
+                background-color: #ddd;
+            }
+
+        </style>
+        <center>
+            <h1>Esta es una lista</h1>
+            <ul>
+                <li>Lapiceros</li>
+                <li>Cuadernos
+                    <ul>
+                        <a href="https://www.google.com/?hl=es"><li>Doble raya</li></a>
+                        <li>Cuadriculado</li>
+                        <li>Rayado</li>
+                        <li>Liso</li>
+                    </ul>
+                </li>
+                <li>Plumones</li>
+                <li>Colores</li>
+            </ul>
+        <div style="background-color: chocolate;width: 75%;text-align: justify;display: flex;">
+            <img src="img/logo.png" style="width: 250px;">
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a<br> 
+                document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML).<br> 
+                CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+
+        </div>
+        <footer style="background-color: darkorange;width: 75%;">
+            <a href="https://superate.org.sv/"><img src="img/logo_raices.jpg" style="height: 50px;width: 50px;"></a>
+            <a href="https://www.youtube.com/?app"><img src="img/youtube.jpg"style="height: 50px;width: 50px;"></a>
+            <a href="https://www.google.com/?hl=es"> <img src="img/google.png"style="height: 50px;width: 50px;"></a>
+            
+
+        </footer>
+
+    </center>
+    </body>
+</html>
